@@ -1,0 +1,95 @@
+main {
+   min-height: 80vh;
+}
+
+
+.callfont {
+
+    text-align: center;
+    font-size: 400%;
+    color: rgb(220, 223, 226);
+}
+.call_action {
+
+    
+    height: 80vh;
+    background-image: url("back1.jpg");
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  font-size: 3.2vw;
+  
+}
+
+.vert {
+  height: 50%;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.img1{
+  width: 40vh;
+  border-radius: 40%;
+ 
+}
+
+.about_section {
+
+ background-color: rgb(236, 238, 239);
+ background-size: 100% 100%;
+}
+
+.pic{
+  text-align: center;
+  margin-top: 50px;
+  align-items: center;
+}
+
+p {
+  vertical-align: middle;
+}
+
+.wrapper {
+  display: flex;
+  
+}
+
+.card-title {
+  font-size: medium;
+  font-weight:bold;
+  color: #449844;
+}
+
+
+.program-link {
+  text-decoration: none;
+}
+
+
+@media (max-width:500px){
+  .callfont{
+    font-size: 200%;
+  }
+  h1{
+    font-size: 200%;
+  }
+  .vert{
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  .pic{
+    margin-top: 10px;
+  }
+}
